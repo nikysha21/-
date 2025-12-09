@@ -105,6 +105,7 @@ namespace Моделирование_ПО
                 dbConnection.Close();
             }
             catch (Exception ex)
+            //код на случай ошибки подключения к бд
             {
                 MessageBox.Show("Ошибка подключения к базе данных: " + ex.Message, "Ошибка!");
                 if (dbConnection.State == ConnectionState.Open)
@@ -134,3 +135,4 @@ namespace Моделирование_ПО
 
     }
 }
+
