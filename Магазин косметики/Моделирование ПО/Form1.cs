@@ -126,6 +126,7 @@ namespace Моделирование_ПО
         }
 
         private void button1_Click(object sender, EventArgs e)
+        //добавление 4-ой формы
         {
             Form4 newForm = new Form4();
             newForm.Show();
@@ -134,3 +135,4 @@ namespace Моделирование_ПО
 
     }
 }
+
