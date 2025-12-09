@@ -66,7 +66,7 @@ namespace Моделирование_ПО
                 MessageBox.Show("Введите логин и пароль!", "Внимание!");
                 return;
             }
-
+// добавлена проверка ввода логина и пароля
             string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\\окончательный вариант системы\\password.mdb";
 
             OleDbConnection dbConnection = new OleDbConnection(connectionString);
@@ -134,3 +134,4 @@ namespace Моделирование_ПО
 
     }
 }
+
